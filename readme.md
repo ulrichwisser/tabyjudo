@@ -34,7 +34,7 @@ Nyhetsflödet hämtas via RSS från tabyjudo.se. Konfiguration i `news.js`:
 ### RSS-källa
 
 ```javascript
-const rssUrl = 'https://tabyjudo.se/Home/NewsRss';
+const rssUrl = 'https://www.tabyjudo.se/Home/NewsRss';
 ```
 
 Vid problem, verifiera att URL:en är korrekt och kontrollera eventuella konsolfel i webbläsarens utvecklarverktyg (F12).

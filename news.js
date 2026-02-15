@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const newsContainer = document.getElementById('news-container');
-    const rssUrl = 'https://tabyjudo.se/Home/NewsRss'; //Behövs för att hämta RSS-flödet från lagets nyheter
+    const rssUrl = 'https://www.tabyjudo.se/Home/NewsRss'; //Behövs för att hämta RSS-flödet från lagets nyheter
     const maxNewsItems = 3; // Maximala antal nyheter att visa
     
     // Fetch the RSS feed
